@@ -3,7 +3,7 @@ import React from 'react';
 
 function WeatherDisplay({ weather }) {
   return (
-    <div>
+    <div className="weather-display">
       <h2>Weather Details</h2>
       <p>Temperature: {weather?.main.temp} °C</p>
       <p>Humidity: {weather?.main.humidity}%</p>
